@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Horror Movie Blog</title>
+    <style>
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: #0b0b0b;
+        color: #f5f5f5;
+        line-height: 1.6;
+        min-height: 100vh;
+        background: radial-gradient(circle at center, #1a0000, #000000 80%);
+        padding: 20px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        font-family: "Creepster", cursive;
+        color: #e03e3e;
+        text-shadow: 2px 2px 8px #990000;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        font-style: italic;
+        color: #b33a3a;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 50px;
+      }
+
+      nav a {
+        color: #e03e3e;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        border: 2px solid transparent;
+        padding: 8px 16px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover {
+        background-color: #e03e3e;
+        color: #fff;
+        border-color: #fff;
+        box-shadow: 0 0 10px #e03e3e;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      article {
+        background-color: #1a0000;
+        border: 2px solid #660000;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px #660000;
+        transition: transform 0.3s ease;
+      }
+
+      article:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 25px #cc0000;
+      }
+
+      article h2 {
+        color: #ff4c4c;
+        margin-bottom: 10px;
+        font-family: "Creepster", cursive;
+        font-size: 2rem;
+      }
+
+      article p {
+        color: #d9b3b3;
+        font-size: 1.1rem;
+        line-height: 1.5;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 0.9rem;
+        color: #660000;
+        border-top: 1px solid #660000;
+        margin-top: 60px;
+      }
+
+      /* Google Fonts Creepster */
+      @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fright Night Films</h1>
+      <p>Your daily dose of horror movie thrills and chills</p>
+    </header>
+
+    <nav>
+      <a href="#reviews">Reviews</a>
+      <a href="#top-movies">Top Movies</a>
+      <a href="#upcoming">Upcoming</a>
+      <a href="#about">About Me</a>
+    </nav>
+
+    <main>
+      <article id="reviews">
+        <h2>Review: The Conjuring</h2>
+        <p>
+          Delve into the chilling true story that has haunted audiences
+          worldwide. The Conjuring delivers spine-tingling suspense and ghostly
+          encounters that redefine haunted house horror.
+        </p>
+      </article>
+
+      <article id="top-movies">
+        <h2>Top 5 Horror Movies to Watch This Halloween</h2>
+        <p>
+          From classics like “Halloween” to modern nightmares like “Hereditary,”
+          here are the top horror films guaranteed to keep you awake at night.
+        </p>
+      </article>
+
+      <article id="upcoming">
+        <h2>Upcoming Horror Releases</h2>
+        <p>
+          Get ready for new terrifying tales hitting theaters soon. Stay updated
+          with trailers, release dates, and early reviews.
+        </p>
+      </article>
+
+      <article id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm Aashish, a horror movie enthusiast with a passion for all things
+          spooky. Join me as I explore the darkest corners of cinema and share
+          my thoughts on your favorite fright flicks.
+        </p>
+      </article>
+    </main>
+
+    <footer>&copy; 2025 Fright Night Films. All Rights Reserved.</footer>
+  </body>
+</html>
